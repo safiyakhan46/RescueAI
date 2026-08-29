@@ -1,0 +1,8 @@
+@'
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+'@ | Set-Content -Path ".gitignore" -Encoding utf8
